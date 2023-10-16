@@ -4,14 +4,13 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import React from 'react'
 
-import image5 from '~/assets/highlights/highlight-cali.jpeg'
 import image1 from '~/assets/highlights/highlight-cat.jpeg'
 import image3 from '~/assets/highlights/highlight-controller.jpg'
-import image6 from '~/assets/highlights/highlight-push.png'
+import image5 from '~/assets/highlights/highlight-push.png'
 import image2 from '~/assets/highlights/highlight-workshop.jpg'
 import image4 from '~/assets/highlights/highlight-zolplay.jpg'
 
-const images = [image1, image2, image3, image4, image5, image6]
+const images = [image1, image2, image3, image4, image5]
 const alts = [
   '我的猫躺在我的工作台桌子上的键盘旁边',
   '我在西雅图城市大学举办的技术演讲',

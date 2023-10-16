@@ -21,19 +21,18 @@ export function BlogPostCard({ post, views }: { post: Post; views: number }) {
       className="group relative flex w-full transform-gpu flex-col rounded-3xl bg-transparent ring-2 ring-[--post-image-bg] transition-transform hover:-translate-y-0.5"
       style={
         {
-          '--post-image-fg': mainImage.asset.dominant?.foreground,
-          '--post-image-bg': mainImage.asset.dominant?.background,
-          '--post-image': `url(${mainImage.asset.url}`,
+          '--post-image-fg': mainImage?.asset?.dominant?.foreground,
+          '--post-image-bg': mainImage?.asset?.dominant?.background,
+          '--post-image': `url(${mainImage?.asset?.url}`,
         } as React.CSSProperties
       }
     >
       <div className="relative aspect-[240/135] w-full">
         <Image
-          src={mainImage.asset.url}
+          src={mainImage?.asset?.url}
           alt=""
           className="rounded-t-3xl object-cover"
-          placeholder="blur"
-          blurDataURL={mainImage.asset.lqip}
+          blurDataURL={mainImage?.asset?.lqip}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw"
         />
