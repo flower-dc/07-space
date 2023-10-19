@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: '大聪花',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://07-space-jbl5ddosw-flower-dc.vercel.app',
   },
   twitter: {
     site: '@thecalicastle',
