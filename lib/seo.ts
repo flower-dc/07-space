@@ -4,7 +4,7 @@ export const seo = {
     '我叫大聪花，一名开发者。',
   url: new URL(
     process.env.NODE_ENV === 'production'
-      ? 'https://07-space-jbl5ddosw-flower-dc.vercel.app/'
+      ? 'https://07-space.vercel.app/'
       : 'http://localhost:3000'
   ),
 } as const

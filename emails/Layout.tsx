@@ -44,7 +44,7 @@ export default function Layout({
               />
               <Text className="text-center">
                 <Link
-                  href="https://07-space-jbl5ddosw-flower-dc.vercel.app/"
+                  href="https://07-space.vercel.app/"
                   className="text-zinc-700 underline"
                 >
                   <strong>Cali Castle</strong>
@@ -52,7 +52,7 @@ export default function Layout({
                 <br />
                 开发者、设计师、细节控、创始人
               </Text>
-              <Text className="text-center">
+              {/* <Text className="text-center">
                 <Link
                   href="https://cali.so/twitter"
                   className="text-xs text-zinc-600 underline"
@@ -80,7 +80,7 @@ export default function Layout({
                 >
                   哔哩哔哩
                 </Link>
-              </Text>
+              </Text> */}
             </Section>
           </Container>
         </Body>
